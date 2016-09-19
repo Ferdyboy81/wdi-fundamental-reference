@@ -1,0 +1,12 @@
+//program that checks if movie patrons are eligible for discount then show ticket price//
+
+function showTicketPrice(age) {
+      var standardPrice = $20
+      if (age<13) {
+      show child discount;
+      } else if (age>65) {
+      show senior discount
+      } else {
+      show StandardPrice
+      }
+}

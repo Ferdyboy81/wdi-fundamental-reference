@@ -1,0 +1,120 @@
+nav {
+    background-color: #808080;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #ffbf00;
+    padding: 35px;
+    display: block;
+    float: left;
+}
+
+nav a:hover{
+    background-color: #ee5f3c;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+h1 {
+    color: rgb(2, 132, 130);
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+
+h2{
+    color:#ffd700;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color:#ffd700;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+form{
+    text-align: center;
+    margin: .5em;
+}
+
+p {
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55em;
+}
+
+/**how do I make you responsive!!!! https://codepen.io/alexandredees/pen/ojaFr**/
+#game-board{
+    width: 95%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+.card {
+    height: 200px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);;
+    border-radius: 10px;
+    background-image: url(eco/_Back.png);
+    background-size:152px 202px;
+    margin: .7em .7em .7em 7.2em;
+    float: left;
+}
+
+.flip{
+    width: 152px;
+    height: 202px;
+}
+
+.copyWrite {
+    color: #00a1ff
+}
+
+footer{
+    clear: both;
+    background-color: #808080;
+    text-align: center;
+    margin: 30px;
+}
+
+.button-blue {
+    text-align: center;
+	background-color: #ffd700;
+	border-radius: 15px;
+	border: 1px solid #ccccc0;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 16px;
+	position: relative;
+}
+
+.input-field{
+	text-align: center;
+	margin: 1em;
+}

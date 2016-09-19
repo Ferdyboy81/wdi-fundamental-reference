@@ -1,0 +1,16 @@
+.current {
+  background-color: #FCDC13;
+}
+
+#next {
+  background-color: #FFA7C0;
+}
+
+.finished {
+  text-decoration: line-through;
+}
+
+.cool {
+  border: 2px solid #00D0CB;
+  margin: 5px 0;
+}
