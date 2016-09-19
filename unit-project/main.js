@@ -32,21 +32,21 @@ function createRandomCards() {
         cardTypes.push('Queen');
       }
     }
+    console.log(cardTypes)
   }
 }
 
 //pushes clicked item's id into an array for use later
-
 function pushToRemove () {
     cardsToRemove.push(this.id);
 }
-//resets cardsToRemove array so that it's always blank when running a match
 
+//resets cardsToRemove array so that it's always blank when running a match
 function clearRemoveArray(){
     cardsToRemove =[];
 }
-//keeps cardTypes array updated so that cards in play = length of the array; Some functions depending on this value being the same
 
+//keeps cardTypes array updated so that cards in play = length of the array; Some functions depending on this value being the same(THIS IS BAD CODING BTW)
 function updateCardTypesArray(){
     cardTypes.length = cardTypes.length-2;
 }
